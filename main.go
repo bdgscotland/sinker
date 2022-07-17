@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/plexsystems/sinker/internal/commands"
+	"github.com/bdgscotland/sinker/internal/commands"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/plexsystems/sinker/internal/docker"
-	"github.com/plexsystems/sinker/internal/manifest"
+	"github.com/bdgscotland/sinker/internal/docker"
+	"github.com/bdgscotland/sinker/internal/manifest"
 
 	"github.com/hashicorp/go-version"
 	log "github.com/sirupsen/logrus"

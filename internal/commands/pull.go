@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/plexsystems/sinker/internal/docker"
-	"github.com/plexsystems/sinker/internal/manifest"
+	"github.com/bdgscotland/sinker/internal/docker"
+	"github.com/bdgscotland/sinker/internal/manifest"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

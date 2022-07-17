@@ -25,8 +25,8 @@ type Client struct {
 
 // New returns a Docker client configured with the given information logger.
 func New(logInfo func(format string, args ...interface{})) (Client, error) {
-	retry.DefaultDelay = 5 * time.Second
-	retry.DefaultAttempts = 2
+	retry.DefaultDelay = 30 * time.Second
+	retry.DefaultAttempts = 200
 
 	dockerClient, err := client.NewClientWithOpts(client.FromEnv, client.WithAPIVersionNegotiation())
 	if err != nil {

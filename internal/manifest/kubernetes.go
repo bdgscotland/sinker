@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/plexsystems/sinker/internal/docker"
+	"github.com/bdgscotland/sinker/internal/docker"
 
 	kubeyaml "github.com/ghodss/yaml"
 	promv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
